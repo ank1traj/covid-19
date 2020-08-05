@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/996973c893.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- My jQuery -->
+    <script src="main.js"></script>
+
+    <!-- Chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+
+    <title>Covid-19 Tracker India</title>
+  </head>
+  <body>
+    <div class="container-fluid  text-center my-3">
+      <h1 class="">Covid-19 Tracker India</h1>
+      <h5 class="text-muted">
+        An opensource project to keep track of all the COVID-19 cases around the
+        India
+        <br>
+        <br>
+        <br>
+        <br>
+        <label class="dark-toggle">
+	        <input id="dark-toggle" class="dark-toggle-checkbox" type="checkbox" onclick="darkmode.toggle();">
+	        <div class="dark-toggle-switch"></div>
+	        <span class="dark-toggle-label">Dark Mode</span>
+        </label>
+      </h5>
+    </div>
+    <div class="container my-5">
+      <div class="row text-center">
+        <div class="col-4 text-warning">
+          <h5>Confirmed</h5>
+          <p id="confirmed"></p>
+        </div>
+        <div class="col-4 text-info">
+          <h5>Active</h5>
+          <p id="active"></p>
+        </div>
+        <div class="col-4 text-success">
+          <h5>Recovered</h5>
+          <p id="recovered"></p>
+        </div>
+        <div class="col-4 text-danger">
+          <h5>Deceased</h5>
+          <p id="deaths"></p>
+        </div>
+        <div class="col-4 text-primary">
+          <h5>Today's cases</h5>
+          <p id="cases"></p>
+        </div>
+        <div class="col-4 text-danger">
+          <h5>Today's deaths</h5>
+          <p id="death"></p>
+        </div>
+      </div>
+    </div>
+	<div class="container text-center my-5">
+      <h6 class="text-info">
+        *Click on the Confirmed/Recovered/Deaths buttons below to see the chart
+        individually.*
+      </h6>
+    </div>
+    <canvas id="myChart"></canvas>
+
+    <!-- Footer -->
+    <footer class="footer mt-5 py-3 bg-light">
+      <div class="container text-center">
+        <span class="text-muted"
+          >Copyright &copy;2020,
+          <a href="https://cucoders.tech" target="_blank">Ankit Raj</a></span
+        >
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.6/lib/darkmode-js.min.js"></script>
+	<script>
+	const darkmode =  new Darkmode();
+	if (darkmode.isActivated()) {
+	document.getElementById("dark-toggle").checked = true;
+	}
+	else {
+	document.getElementById("dark-toggle").checked = false;
+	}
+	</script>
+  </body>
+</html>
+
