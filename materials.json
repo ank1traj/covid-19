@@ -1,0 +1,368 @@
+"materials": {
+		"materials": [
+		{
+				"baseColor": [
+					0.28000000000000003,
+					0.31,
+					0.38
+				],
+				"baseColorTexture": {
+					"anisotropicFiltering": false,
+					"magFilter": "Linear",
+					"minFilter": "Linear",
+					"mipmapping": true,
+					"uri": "",
+					"wrap": [
+						"Repeat",
+						"Repeat"
+					]
+				},
+				"basicMaterial": {
+					"finish": 0.23999999999999999,
+					"reflection": 0.23999999999999999,
+					"specularColor": [
+						0.44,
+						0.45000000000000001,
+						0.47999999999999998
+					]
+				},
+				"emissiveColor": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"emissiveColorTexture": -1,
+				"lineMaterial": {
+					"color": [
+						0.34901961999999997,
+						0.40000000000000002,
+						0.47843137000000002
+					],
+					"width": 1.0
+				},
+				"name": "Material_0",
+				"pbrMaterial": {
+					"color": [
+						0.28000000000000003,
+						0.31,
+						0.38
+					],
+					"metalness": 0.0,
+					"roughness": 0.52000000000000002
+				},
+				"transparency": 0.0
+			},
+			{
+				"baseColor": [
+					0.55900000000000005,
+					0.61799999999999999,
+					0.75
+				],
+				"baseColorTexture": {
+					"anisotropicFiltering": false,
+					"magFilter": "Linear",
+					"minFilter": "Linear",
+					"mipmapping": true,
+					"uri": "",
+					"wrap": [
+						"Repeat",
+						"Repeat"
+					]
+				},
+				"basicMaterial": {
+					"finish": 0.5,
+					"reflection": 0.5,
+					"specularColor": [
+						0.84499999999999997,
+						0.86799999999999999,
+						0.92000000000000004
+					]
+				},
+				"emissiveColor": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"emissiveColorTexture": -1,
+				"lineMaterial": {
+					"color": [
+						0.29803922999999999,
+						0.32941176999999999,
+						0.40000000000000002
+					],
+					"width": 1.0
+				},
+				"name": "Material_1",
+				"pbrMaterial": {
+					"color": [
+						0.55900000000000005,
+						0.61799999999999999,
+						0.75
+					],
+					"metalness": 0.0,
+					"roughness": 0.29999999999999999
+				},
+				"transparency": 0.0
+			},
+			{
+				"baseColor": [
+					0.51000000000000001,
+					0.55000000000000004,
+					0.63
+				],
+				"baseColorTexture": {
+					"anisotropicFiltering": false,
+					"magFilter": "Linear",
+					"minFilter": "Linear",
+					"mipmapping": true,
+					"uri": "",
+					"wrap": [
+						"Repeat",
+						"Repeat"
+					]
+				},
+				"basicMaterial": {
+					"finish": 0.5,
+					"reflection": 0.5,
+					"specularColor": [
+						0.877,
+						0.89700000000000002,
+						0.94999999999999996
+					]
+				},
+				"emissiveColor": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"emissiveColorTexture": -1,
+				"lineMaterial": {
+					"color": [
+						0.50980395000000001,
+						0.54901962999999998,
+						0.63137259999999995
+					],
+					"width": 1.0
+				},
+				"name": "Material_2",
+				"pbrMaterial": {
+					"color": [
+						0.51000000000000001,
+						0.55000000000000004,
+						0.63
+					],
+					"metalness": 1.0,
+					"roughness": 0.29999999999999999
+				},
+				"transparency": 0.0
+			},
+			{
+				"baseColor": [
+					0.65100000000000002,
+					0.157,
+					0.089999999999999997
+				],
+				"baseColorTexture": {
+					"anisotropicFiltering": false,
+					"magFilter": "Linear",
+					"minFilter": "Linear",
+					"mipmapping": true,
+					"uri": "",
+					"wrap": [
+						"Repeat",
+						"Repeat"
+					]
+				},
+				"basicMaterial": {
+					"finish": 0.29999999999999999,
+					"reflection": 0.29999999999999999,
+					"specularColor": [
+						0.94899999999999995,
+						0.307,
+						0.22
+					]
+				},
+				"emissiveColor": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"emissiveColorTexture": -1,
+				"lineMaterial": {
+					"color": [
+						0.65098040000000001,
+						0.15686275,
+						0.090196079999999998
+					],
+					"width": 1.0
+				},
+				"name": "Material_3",
+				"pbrMaterial": {
+					"color": [
+						0.65100000000000002,
+						0.157,
+						0.089999999999999997
+					],
+					"metalness": 0.0,
+					"roughness": 0.39999997999999998
+				},
+				"transparency": 0.0
+			},
+			{
+				"baseColor": [
+					0.75,
+					0.75,
+					0.75
+				],
+				"baseColorTexture": {
+					"anisotropicFiltering": false,
+					"magFilter": "Linear",
+					"minFilter": "Linear",
+					"mipmapping": true,
+					"uri": "",
+					"wrap": [
+						"Repeat",
+						"Repeat"
+					]
+				},
+				"basicMaterial": {
+					"finish": 0.25,
+					"reflection": 0.25,
+					"specularColor": [
+						0.69999999999999996,
+						0.69999999999999996,
+						0.69999999999999996
+					]
+				},
+				"emissiveColor": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"emissiveColorTexture": -1,
+				"lineMaterial": {
+					"color": [
+						0.74901960000000001,
+						0.74901960000000001,
+						0.74901960000000001
+					],
+					"width": 1.0
+				},
+				"name": "Material_4",
+				"pbrMaterial": {
+					"color": [
+						0.75,
+						0.75,
+						0.75
+					],
+					"metalness": 0.0,
+					"roughness": 0.5
+				},
+				"transparency": 0.5
+			},
+			{
+				"baseColor": [
+					0.45000000000000001,
+					0.114,
+					0.064000000000000001
+				],
+				"baseColorTexture": {
+					"anisotropicFiltering": false,
+					"magFilter": "Linear",
+					"minFilter": "Linear",
+					"mipmapping": true,
+					"uri": "",
+					"wrap": [
+						"Repeat",
+						"Repeat"
+					]
+				},
+				"basicMaterial": {
+					"finish": 0.78000000000000003,
+					"reflection": 0.78000000000000003,
+					"specularColor": [
+						0.95999999999999996,
+						0.312,
+						0.221
+					]
+				},
+				"emissiveColor": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"emissiveColorTexture": -1,
+				"lineMaterial": {
+					"color": [
+						0.4509804,
+						0.11372549,
+						0.062745099999999998
+					],
+					"width": 1.0
+				},
+				"name": "Material_5",
+				"pbrMaterial": {
+					"color": [
+						0.45000000000000001,
+						0.114,
+						0.064000000000000001
+					],
+					"metalness": 1.0,
+					"roughness": 0.29999999999999999
+				},
+				"transparency": 0.0
+			},
+			{
+				"baseColor": [
+					0.34999999999999998,
+					0.59999999999999998,
+					0.85099999999999998
+				],
+				"baseColorTexture": {
+					"anisotropicFiltering": false,
+					"magFilter": "Linear",
+					"minFilter": "Linear",
+					"mipmapping": true,
+					"uri": "",
+					"wrap": [
+						"Repeat",
+						"Repeat"
+					]
+				},
+				"basicMaterial": {
+					"finish": 0.40000000000000002,
+					"reflection": 0.40000000000000002,
+					"specularColor": [
+						0.84999999999999998,
+						0.91000000000000003,
+						1.0
+					]
+				},
+				"emissiveColor": [
+					0.0,
+					0.0,
+					0.0
+				],
+				"emissiveColorTexture": -1,
+				"lineMaterial": {
+					"color": [
+						0.34901961999999997,
+						0.59999999999999998,
+						0.85098039999999997
+					],
+					"width": 1.0
+				},
+				"name": "Material_6",
+				"pbrMaterial": {
+					"color": [
+						0.34999999999999998,
+						0.59999999999999998,
+						0.85099999999999998
+					],
+					"metalness": 0.0,
+					"roughness": 0.29999999999999999
+				},
+				"transparency": 0.0
+			}
+		]
+	}
